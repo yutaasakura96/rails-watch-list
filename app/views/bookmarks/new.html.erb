@@ -1,8 +1,9 @@
-<h1>New Bookmark for <%= @list.name %></h1>
+<h1>New Movie for <%= @list.name %></h1>
 
 <%= simple_form_for [@list, @bookmark] do |f| %>
-  <%= f.input :comment %>
   <%= f.association :movie, collection: Movie.all, prompt: "Select a movie" %>
+  <%= f.input :photo, as: :file %>
+  <%= f.input :comment %>
   <%= f.submit %>
 <% end %>
 

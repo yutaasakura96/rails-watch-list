@@ -1,3 +1,6 @@
-<% @lists.each do |list| %>
-    <%= link_to list.name, list_path(list), class: 'link' %>
-<% end %>
+<div class="watch-list">
+  <% @lists.each do |list| %>
+      <%= link_to list.name, list_path(list), class: 'watch-list-item' %>
+      <%#= link_to 'Delete List', list_path(@list), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %>
+  <% end %>
+</div>

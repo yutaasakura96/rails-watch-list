@@ -21,7 +21,7 @@ header {
   background-color: #dee2e6;
   .sticky {
     height: 8rem;
-    background-color: #fff;
+    background-color: #dee2e6;
     box-shadow: 0 1rem 10rem rgba(130, 162, 235, 0.6);
   }
 }
@@ -51,7 +51,7 @@ header {
     font-size: 3rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: #fff;
+    color: #f8f9fa;
   }
   span:nth-child(1) span {
     display: inline-block;
@@ -65,7 +65,7 @@ header {
     letter-spacing: .1rem;
     transform: translate(3.2rem, -2rem);
     text-align: center;
-    color: #fff;
+    color: #f8f9fa;
     text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   }
 }
@@ -84,7 +84,7 @@ header {
 }
 
 /* Triangle part in the dropdown pointing to the nav home */
-.nav-item:nth-child(4)::after {
+.nav-item:nth-child(3)::after {
   content: '';
   position: absolute;
   top: 2.9rem;
@@ -125,7 +125,7 @@ header {
 .nav-link {
   font-size: 2rem;
   text-transform: uppercase;
-  color: #fff;
+  color: #f8f9fa;
   letter-spacing: 0.1rem;
   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
