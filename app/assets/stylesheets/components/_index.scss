@@ -4,28 +4,3 @@
 @import "form_legend_clear";
 @import "navbar";
 
-.card-category {
-  background-size: cover;
-  background-position: center;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  margin-bottom: 24px;
-
-  .link {
-  font-size: 32px;
-  font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  color: white;
-  text-decoration: none;
-  transition: all 0.3s;
-  text-transform: uppercase;
-
-    &:hover {
-      font-size: 48px;
-    }
-  }
-}

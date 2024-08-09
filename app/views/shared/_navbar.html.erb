@@ -1,0 +1,76 @@
+<%#= link_to 'Home', lists_path, class: 'nav-link'%>
+<nav class="navbar">
+  <!-- Logo -->
+  <div class="logo">
+    <span>Rails <span>Watch</span></span>
+    <span>List</span>
+  </div>
+  <!-- Nav Items -->
+  <ul class="nav-items">
+    <li class="nav-item">
+      <%= link_to 'Home', lists_path, class: 'nav-link'%>
+    </li>
+
+    <li class="nav-item">
+      <a href="clients.html" class="nav-link">Movies</a>
+    </li>
+
+    <li class="nav-item"><a href="products.html" class="nav-link">Bookmarks</a>
+    </li>
+
+    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a>
+      <!-- Dropdown 2 -->
+      <div class="dropdown dropdown-2">
+       <div class="contact-options">
+         <div>
+           <i class="fa-solid fa-envelope"></i>
+           <span>Get in Touch</span>
+        </div>
+
+         <div>
+           <i class="fa-solid fa-comments"></i>
+           <span>Chat with Sales</span>
+        </div>
+
+         <div>
+           <i class="fa-solid fa-user"></i>
+           <span>Accounts & Bills</span>
+        </div>
+
+         <div>
+           <i class="fa-solid fa-wrench"></i>
+           <span>Technical Support</span>
+        </div>
+
+         <div>
+           <i class="fa-solid fa-people-group"></i>
+           <span>Ask the Community</span>
+        </div>
+
+         <div>
+           <i class="fa-solid fa-file-lines"></i>
+           <span>Documentation</span>
+        </div>
+      </div>
+      </div>
+    </li>
+
+    <li class="nav-item"><a href="account.html" class="nav-link">Account</a>
+      <!-- Dropdown 3 -->
+      <div class="dropdown dropdown-3">
+        <form class="account-form">
+          <div class="account-input-group">
+            <input type="text" placeholder="Username">
+            <input type="text" placeholder="Password">
+          </div>
+          <div class="check">
+            <input type="checkbox" id="check">
+            <label for="check">Remember Me</label>
+          </div>
+          <button type="button">Member Login</button>
+            <p>Forgot Your <span>Username</span> or <span>Password?</span></p>
+        </form>
+      </div>
+    </li>
+  </ul>
+</nav>

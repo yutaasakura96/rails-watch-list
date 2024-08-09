@@ -10,3 +10,36 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+/* Default Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-family: "Mukta", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Container */
+.body-container {
+  width: 100vw;
+  height: 100rem;
+  background-color: #dee2e6;
+  margin-top: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .inside-container {
+    width: 95%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 4rem;
+    margin-top: 10rem;
+    box-shadow: 0 2rem 2rem rgba($color: #000000, $alpha: 0.6);
+  }
+}
